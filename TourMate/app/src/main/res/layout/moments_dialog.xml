@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        app:cardElevation="50dp"
+        app:cardCornerRadius="2dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/showImageCameraPhoto"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:src="@mipmap/ic_launcher"
+                android:scaleType="fitXY"/>
+
+
+            <EditText
+                android:id="@+id/writeComments"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:lines="6"
+                android:hint="@string/write_some_comments"
+                android:gravity="top"
+                android:textColorHint="@color/dark"
+                android:maxLength="180"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+
+
+                />
+
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/cancelBt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/pink"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:text="Cancel"/>
+
+
+                <TextView
+                    android:id="@+id/saveBt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/pink"
+                    android:textStyle="bold"
+                    android:text="Save"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

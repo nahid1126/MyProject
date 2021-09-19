@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/sky2"
+            android:text="Expense Details   "
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expense Type : "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/expense_display_typeTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="like  type"
+                android:textColor="@color/dark"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:maxLines="1"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expense Amount : "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/expense_display_amountTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="like  amount"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/dark"
+                android:textSize="18sp"
+                android:maxLines="1"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expense Date and Time : "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/expense_display_dateTimeTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_marginLeft="20dp"
+                android:text="like  dateTime"
+                android:textColor="@color/dark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

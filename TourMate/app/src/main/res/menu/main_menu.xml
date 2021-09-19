@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/eventFragment"
+            android:title="Home"
+            android:icon="@drawable/home"
+            />
+
+        <item
+            android:id="@+id/weatherId"
+            android:title="Weather"
+            android:icon="@drawable/weather"
+            />
+
+        <item
+            android:id="@+id/mapFragment"
+            android:title="Location and Map"
+            android:icon="@drawable/location"
+            />
+
+        <item
+            android:id="@+id/hotelBookingFragment"
+            android:title="Hotel Booking"
+            android:icon="@drawable/hotel"
+            />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="mytoast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">18sp</item>
+        <item name="stColorBackground">@color/red</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+        <item name="stRadius">4dp</item>
+        <item name="stGravity">center</item> top or center
+    </style>
+
+    <style name="mytoast2">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#03FA0D</item>
+        <item name="stTextSize">20sp</item>
+        <item name="stColorBackground">#0A0D20</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+        <item name="stRadius">4dp</item>
+        <item name="stGravity">center</item> top or center
+    </style>
+
+
+
+</resources>

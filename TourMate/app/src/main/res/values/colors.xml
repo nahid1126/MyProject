@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0B123A</color>
+    <color name="colorPrimaryDark">#0B173D</color>
+    <color name="colorAccent">#1C2674</color>
+    <color name="myColor">#1C2674</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="dark">#494848</color>
+    <color name="red">#ff22</color>
+    <color name="sky">#03A9F4</color>
+    <color name="sky2">#07D1F7</color>
+    <color name="pink">#D6366D</color>
+    <color name="signUpColor">#0E1E77</color>
+</resources>

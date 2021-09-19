@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/setting">
+        <menu>
+
+            <item
+                android:id="@+id/profileFragment"
+                android:title="Profile"
+                android:icon="@drawable/profile"/>
+            <item
+                android:id="@+id/signInFragment"
+                android:title="Log out"
+                android:icon="@drawable/logout"/>
+
+
+
+        </menu>
+
+    </item>
+
+</menu>
+

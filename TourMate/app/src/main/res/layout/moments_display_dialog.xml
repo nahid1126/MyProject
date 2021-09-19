@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="60dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="320dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/moments_display_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/display_moments_writeCommentsTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="6"
+                android:layout_margin="5dp"
+                android:maxLength="195"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:background="@color/white"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+
+                />
+
+            <EditText
+                android:id="@+id/display_moments_writeCommentsEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:lines="6"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:gravity="top"
+                android:maxLength="195"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorPrimary"
+                android:hint="@string/write_comments"
+                android:visibility="gone"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/display_moment_editBt"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:text="Edit Comment"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:layout_alignParentRight="true"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/display_moment_ookBt"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:text="update"
+                android:padding="5dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#F7035A"
+                android:background="@color/colorPrimary"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                />
+
+
+            <Button
+                android:id="@+id/display_moment_deleteBt"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Delete Memory"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+
+                android:background="@color/colorPrimary"
+                android:textAllCaps="false"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

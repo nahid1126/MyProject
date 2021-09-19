@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardElevation="15dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="     Add an event       "
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="6dp">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/eventNameEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter an event name"
+                        android:textStyle="bold"
+                        android:maxLength="30"
+                        android:textColorHint="#817D7D"
+                        android:textColor="@color/black"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textSize="18sp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/startLocationEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Your Starting location"
+                        android:textStyle="bold"
+                        android:maxLength="30"
+                        android:textColorHint="#817D7D"
+                        android:textColor="@color/black"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textSize="18sp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/destinationEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Your destination"
+                        android:maxLength="30"
+                        android:textStyle="bold"
+                        android:textColorHint="#817D7D"
+                        android:textColor="@color/black"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textSize="18sp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/startDateEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Event Start date"
+                        android:textStyle="bold"
+                        android:textColorHint="#817D7D"
+                        android:textColor="@color/black"
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/date"
+                        android:inputType="date"
+                        android:focusable="false"
+                        android:maxLines="1"
+                        android:textSize="18sp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/endDateEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Event End date"
+                        android:textStyle="bold"
+                        android:textColorHint="#817D7D"
+                        android:textColor="@color/black"
+                        android:maxLines="1"
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/date"
+                        android:inputType="date"
+                        android:focusable="false"
+                        android:textSize="18sp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/budgetEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Your Estimated budget"
+                        android:textStyle="bold"
+                        android:textColorHint="#817D7D"
+                        android:textColor="@color/black"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        android:maxLength="8"
+                        android:drawableLeft="@drawable/doller1"
+                        android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <RelativeLayout
+                    android:layout_marginTop="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/cancelBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Cancel"
+                        android:textSize="22sp"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/pink"/>
+
+
+                    <TextView
+                        android:id="@+id/addBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add  "
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/pink"/>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</layout>

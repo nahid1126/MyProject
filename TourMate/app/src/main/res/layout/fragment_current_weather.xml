@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sky1"
+        android:orientation="vertical"
+        tools:context=".weather_report.CurrentWeatherFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/dateTimeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:text="Please wait..." />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iconImageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="15dp"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/currentTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#192569"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textSize="25sp"
+                        android:layout_marginTop="10dp"
+                        android:text="Please wait..." />
+
+
+                    <TextView
+                        android:id="@+id/descriptionTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/dark"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:text="Please wait..." />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:layout_marginLeft="60dp">
+
+                <TextView
+                    android:id="@+id/minTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20sp"
+                    android:text="Please wait..." />
+                <TextView
+                    android:id="@+id/maxTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:text="Please wait..." />
+
+                <TextView
+                    android:id="@+id/huminityTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#3C3F3F"
+                    android:layout_gravity="center"
+                    android:text="Please wait"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    />
+
+                <TextView
+                    android:id="@+id/presureTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#3C3F3F"
+                    android:layout_gravity="center"
+                    android:text="Please wait"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    />
+                <TextView
+                    android:id="@+id/sunriseTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#F01607"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="22sp"
+                    android:text="Please wait..." />
+
+                <TextView
+                    android:id="@+id/sunsetTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#F01607"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="22sp"
+                    android:text="Please wait..." />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</layout>

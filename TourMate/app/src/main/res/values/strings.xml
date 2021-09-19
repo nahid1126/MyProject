@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Tour Mate</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="place_api2">AIzaSyCD-bpsdlBJ75aQrxI1AgDE_LqLTEzW3iI</string>
+    <string name="place_api">AIzaSyCD-bpsdlBJ75aQrxI1AgDE_LqLTEzW3iI</string>
+    <string name="places_api">AIzaSyCD-bpsdlBJ75aQrxI1AgDE_LqLTEzW3iI</string>
+    <string name="direction_api">AIzaSyCwAu7bVPAW88CQaVnkk5JcN38NpglyNlc</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="Expenditure">Expenditure</string>
+    <string name="Moments">Moments</string>
+    <string name="More">More on Event</string>
+    <string name="write_some_comments">Write some Comments</string>
+    <string name="write_comments">Write Comments !!</string>
+
+
+    <array name="Expenditure">
+        <item>Add New Expense</item>
+        <item>View All Expense</item>
+        <item>Add More Budget</item>
+    </array>
+    <array name="Moments">
+        <item>Take a Photo</item>
+        <item>View Gallery</item>
+        <item>View All Moments</item>
+    </array>
+
+    <array name="More">
+        <item>Edit Event</item>
+        <item>Delete Event</item>
+    </array>
+
+
+</resources>
